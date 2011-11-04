@@ -1,9 +1,0 @@
-<package project="Mer:Trunk:Base" name="xorg-x11-drv-mouse">
-  <title>X.Org X11 mouse input driver</title>
-  <description>Description: %{summary}
-
-
-
-</description>
-  <url>http://www.x.org/</url>
-</package>
