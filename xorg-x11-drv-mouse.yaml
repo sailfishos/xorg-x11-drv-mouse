@@ -1,6 +1,6 @@
 Name: xorg-x11-drv-mouse
 Summary: X.Org X11 mouse input driver
-Version: 1.7.1
+Version: 1.8.1
 Release: 1
 Group: Graphics/X11
 License: MIT
@@ -11,12 +11,14 @@ Description: X.Org X11 mouse input driver.
 Requires:
     - xorg-x11-server-Xorg
 PkgConfigBR:
-    - xorg-server
+    - xorg-macros >= 1.8
+    - xorg-server >= 1.7
     - xproto
-    - randrproto
     - inputproto
-    - xextproto
 Configure: reconfigure
 
 Description: |
     %{summary}.
+
+AutoSubPackages:
+    - devel
